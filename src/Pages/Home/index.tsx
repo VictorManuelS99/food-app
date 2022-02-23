@@ -1,9 +1,5 @@
-import { Title } from "../../Components/Elements/Title/Title";
+import { SecionLayout } from "../../Layouts/Section";
 
 export const Home = () => {
-  return (
-    <div>
-      <Title>Home</Title>
-    </div>
-  );
+  return <SecionLayout title="Jaegar Resto" aside> </SecionLayout>;
 };

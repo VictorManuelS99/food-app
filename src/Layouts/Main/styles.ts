@@ -8,6 +8,5 @@ export const Wrapper = styled.div`
 `;
 
 export const Container = styled.div`
-  padding: 1.5rem;
-  width: calc(100% - 3rem - 104px);
+  width: calc(100% - 104px);
 `;

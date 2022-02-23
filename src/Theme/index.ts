@@ -5,7 +5,7 @@ import { colors } from "./colors";
 export const GlobalStyle = createGlobalStyle`
       html, body{
         margin: 0;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Barlow', sans-serif;
     }
 `;
 
