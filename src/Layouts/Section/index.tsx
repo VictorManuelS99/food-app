@@ -2,9 +2,10 @@ import { FC } from "react";
 
 import { Text } from "../../Components/Elements/Text/Text";
 import { Title } from "../../Components/Elements/Title/Title";
-import { Aside } from "../../Components/Templates/Aside.tsx/Aside";
+import { Search } from "../../Components/Groups/Search/Search";
+import { Aside } from "../../Components/Templates/Aside/Aside";
 
-import { Children, Container, Header, Wrapper } from "./styles";
+import { Children, Container, Header, TitleContainer, Wrapper } from "./styles";
 
 interface Props {
   children: React.ReactNode;
@@ -15,10 +16,13 @@ interface Props {
 export const SecionLayout: FC<Props> = ({ children, title, aside }) => {
   return (
     <Wrapper>
-      <Container>
+      <Container aside={aside}>
         <Header>
-          <Title>{title}</Title>
-          <Text>Tuesday, 2 Feb 2021</Text>
+          <TitleContainer>
+            <Title>{title}</Title>
+            <Text>Tuesday, 2 Feb 2021</Text>
+          </TitleContainer>
+          <Search />
         </Header>
         <Children>{children}</Children>
       </Container>

@@ -9,6 +9,7 @@ export const colors = {
   background: {
     main: "#252836",
     secondary: "#1F1D2B",
+    light: "#2D303E",
   },
   info: {
     main: "blue",

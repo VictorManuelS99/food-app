@@ -1,6 +1,6 @@
 import { FC, ReactNode } from "react";
 
-import { SideBar } from "../../Components/Templates/SideBar/SiderBar";
+import { SideBar } from "../../Components/Templates/Sidebar/SiderBar";
 
 import { Container, Wrapper } from "./styles";
 
