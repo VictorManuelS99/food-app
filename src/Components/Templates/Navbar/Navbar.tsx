@@ -12,7 +12,7 @@ export const Navbar = () => {
         <Link to="/cold-dishes">Cold Dishes</Link>
       </Item>
       <Item>
-        <Link to="/soup">Soup</Link>
+        <Link to="/soup">Sopa</Link>
       </Item>
       <Item>
         <Link to="/grill">Grill</Link>
