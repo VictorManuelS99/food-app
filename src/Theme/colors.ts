@@ -31,3 +31,5 @@ export const colors = {
     main: "#00a8ff",
   },
 };
+
+//colores de la app
