@@ -10,7 +10,6 @@ import { ReactComponent as DashboardIcon } from "../../../Assets/Icons/Dashboard
 import { ReactComponent as SettingsIcon } from "../../../Assets/Icons/Setting.svg";
 
 export const SideBar = () => {
-  const props = useMatchLocation;
 
   return (
     <Wrapper>
@@ -18,13 +17,13 @@ export const SideBar = () => {
         <Item>
           <Logo />
         </Item>
-        <Item {...props("/")}>
+        <Item {...useMatchLocation("/")}>
           <SideBarBtn icon={HomeIcon} to={"/"} />
         </Item>
-        <Item {...props("/dashboard")}>
+        <Item {...useMatchLocation("/dashboard")}>
           <SideBarBtn icon={DashboardIcon} to={"/dashboard"} />
         </Item>
-        <Item {...props("/settings")}>
+        <Item {...useMatchLocation("/settings")}>
           <SideBarBtn icon={SettingsIcon} to={"/settings"} />
         </Item>
       </List>
