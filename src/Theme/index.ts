@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
       html, body{
         margin: 0;
         font-family: 'Barlow', sans-serif;
+        background-color: #f0b90b;
     }
 `;
 

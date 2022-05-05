@@ -8,7 +8,7 @@ import { ReactComponent as SettingsIcon } from "Assets/Icons/Setting.svg";
 
 import { useMatchLocation } from "Hooks";
 
-export const Sidebar = () => {
+const Sidebar = () => {
   return (
     <Wrapper>
       <List>
@@ -28,3 +28,5 @@ export const Sidebar = () => {
     </Wrapper>
   );
 };
+
+export default Sidebar;
