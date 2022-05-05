@@ -1,16 +1,14 @@
-import { useMatchLocation } from "../../../Hooks/useMatchLocation";
-
-import { SideBarBtn } from "../../Elements/SideBarBtn/SideBarBtn";
-import { Logo } from "../../Elements/Logo/Logo";
+import { SideBarBtn, Logo } from "Components/Elements";
 
 import { Item, List, Wrapper } from "./styles";
 
-import { ReactComponent as HomeIcon } from "../../../Assets/Icons/Home.svg";
-import { ReactComponent as DashboardIcon } from "../../../Assets/Icons/Dashboard.svg";
-import { ReactComponent as SettingsIcon } from "../../../Assets/Icons/Setting.svg";
+import { ReactComponent as HomeIcon } from "Assets/Icons/Home.svg";
+import { ReactComponent as DashboardIcon } from "Assets/Icons/Dashboard.svg";
+import { ReactComponent as SettingsIcon } from "Assets/Icons/Setting.svg";
 
-export const SideBar = () => {
+import { useMatchLocation } from "Hooks";
 
+export const Sidebar = () => {
   return (
     <Wrapper>
       <List>

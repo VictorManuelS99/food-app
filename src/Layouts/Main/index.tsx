@@ -1,6 +1,6 @@
 import { FC, ReactNode } from "react";
 
-import { SideBar } from "../../Components/Templates/Sidebar/SiderBar";
+import { Sidebar } from "Components/Templates";
 
 import { Container, Wrapper } from "./styles";
 
@@ -11,7 +11,7 @@ interface Props {
 export const MainLayout: FC<Props> = ({ children }) => {
   return (
     <Wrapper>
-      <SideBar />
+      <Sidebar />
       <Container>{children}</Container>
     </Wrapper>
   );

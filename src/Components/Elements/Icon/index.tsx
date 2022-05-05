@@ -1,9 +1,9 @@
 import { FC } from "react";
 
-import { Svg } from "../Svg/Svg";
+import { Svg } from "../Svg";
 
 interface Props {
-  icon: FC; 
+  icon: FC;
   color?: string;
 }
 

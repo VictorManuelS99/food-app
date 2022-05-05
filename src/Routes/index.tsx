@@ -3,10 +3,10 @@ import { Suspense } from "react";
 import { Routes as Switch, Route } from "react-router-dom";
 
 //2. Components
-import { Loader } from "../Components/Groups/Loader/Loader";
+import { Loader } from "Components/Groups";
 
 //3. Pages
-import { Home } from "../Pages/Home";
+import { Home } from "Pages";
 
 function Routes() {
   return (

@@ -1,9 +1,8 @@
 import { FC } from "react";
 
-import { Text } from "../../Components/Elements/Text/Text";
-import { Title } from "../../Components/Elements/Title/Title";
-import { Search } from "../../Components/Groups/Search/Search";
-import { Aside } from "../../Components/Templates/Aside/Aside";
+import { Text, Title } from "Components/Elements";
+import { Aside } from "Components/Templates";
+import { Search } from "Components/Groups";
 
 import { Children, Container, Header, TitleContainer, Wrapper } from "./styles";
 

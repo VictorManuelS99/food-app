@@ -1,5 +1,4 @@
-import { Input } from "../../Elements/Input/Input";
-import { Svg } from "../../Elements/Svg/Svg";
+import { Input, Svg } from "Components/Elements";
 
 import { Wrapper } from "./styles";
 
