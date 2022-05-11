@@ -30,7 +30,7 @@ jobs:
           npm run build
       - name: Deploy
         uses: VictorManuelS99/github-pages-deploy-action@3.7.1
-        width: 
+        with: 
           github_token: ${{ secret.GITHUB_TOKEN}}
           branch: gh-pages
           folder: build 
