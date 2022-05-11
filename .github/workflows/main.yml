@@ -31,7 +31,7 @@ jobs:
       - name: Deploy
         uses: VictorManuelS99/github-pages-deploy-action@3.7.1
         with: 
-          github_token: ${{ secret.GITHUB_TOKEN}}
+          github_token: ${{ secrets.GITHUB_TOKEN}}
           branch: gh-pages
           folder: build 
 
