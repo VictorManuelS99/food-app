@@ -26,8 +26,8 @@ jobs:
         uses: actions/checkout@master
       - name: Install and Build
         run: |
-        npm install
-        npm run build
+          npm install
+          npm run build
       - name: Deploy
         uses: VictorManuelS99/github-pages-deploy-action@3.7.1
         width: 
