@@ -1,11 +1,15 @@
 import { Navbar } from "Components/Templates";
+import { FoodRoutes } from "Components/Templates/FoodRoutes";
+
 import { SecionLayout } from "Layouts/Section";
 
 export const Home = () => {
+  const username = "Jaegar Resto";
+
   return (
-    <SecionLayout title="Jaegar Resto" aside>
+    <SecionLayout title={username} aside>
       <Navbar />
-      <h1>Aeeeeeea</h1>
+      <FoodRoutes />
     </SecionLayout>
   );
 };

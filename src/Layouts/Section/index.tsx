@@ -13,13 +13,20 @@ interface Props {
 }
 
 export const SecionLayout: FC<Props> = ({ children, title, aside }) => {
+  const date = new Date().toLocaleDateString("en-US", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
+
   return (
     <Wrapper>
       <Container aside={aside}>
         <Header>
           <TitleContainer>
             <Title>{title}</Title>
-            <Text>Tuesday, 2 Feb 2021</Text>
+            <Text>{date}</Text>
           </TitleContainer>
           <Search />
         </Header>

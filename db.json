@@ -1,0 +1,76 @@
+{
+  "dishes": [
+    {
+      "name": "Pizza",
+      "price": 12.11,
+      "stock": 10,
+      "img": {
+        "url": "https://via.placeholder.com/250"
+      }
+    },
+    {
+      "name": "Pizza",
+      "price": 12.11,
+      "stock": 10,
+      "img": {
+        "url": "https://via.placeholder.com/250"
+      }
+    },
+    {
+      "name": "Pizza",
+      "price": 12.11,
+      "stock": 10,
+      "img": {
+        "url": "https://via.placeholder.com/250"
+      }
+    },
+    {
+      "name": "Pizza",
+      "price": 12.11,
+      "stock": 10,
+      "img": {
+        "url": "https://via.placeholder.com/250"
+      }
+    },
+    {
+      "name": "Pizza",
+      "price": 12.11,
+      "stock": 10,
+      "img": {
+        "url": "https://via.placeholder.com/250"
+      }
+    },
+    {
+      "name": "Pizza",
+      "price": 12.11,
+      "stock": 10,
+      "img": {
+        "url": "https://via.placeholder.com/250"
+      }
+    },
+    {
+      "name": "Pizza",
+      "price": 12.11,
+      "stock": 10,
+      "img": {
+        "url": "https://via.placeholder.com/250"
+      }
+    },
+    {
+      "name": "Pizza",
+      "price": 12.11,
+      "stock": 10,
+      "img": {
+        "url": "https://via.placeholder.com/250"
+      }
+    },
+    {
+      "name": "Pizza",
+      "price": 12.11,
+      "stock": 10,
+      "img": {
+        "url": "https://via.placeholder.com/250"
+      }
+    }
+  ]
+}
